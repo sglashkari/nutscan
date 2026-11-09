@@ -1,0 +1,1 @@
+{"name":"label-lens","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node --env-file-if-exists=.env server.js","test":"node --test","build":"esbuild public/app.js --bundle --format=esm --outfile=public/bundle.js"},"dependencies":{"@zxing/browser":"0.1.5"},"devDependencies":{"esbuild":"0.25.12"},"engines":{"node":">=22"}}
